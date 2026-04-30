@@ -1243,3 +1243,42 @@ button:hover {
   }
 
 }
+
+/* ================= FOOTER SPACE FIX ================= */
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 20px 12px !important;
+    margin: 0 !important;
+  }
+
+  .footer-info {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .footer-info p {
+    margin: 6px 0 !important;   /* खूप कमी gap */
+    padding: 0 !important;
+    line-height: 1.5;
+  }
+
+  .footer-contact {
+    margin-bottom: 10px !important;
+  }
+
+  .footer-contact span {
+    display: block;
+    margin: 4px 0 !important;
+  }
+
+  .footer-brand {
+    margin: 8px 0 !important;
+  }
+
+  .footer-bottom {
+    margin-top: 10px !important;
+    padding-top: 8px !important;
+  }
+
+}
