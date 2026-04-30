@@ -1345,3 +1345,34 @@ body::after {
   object-fit: contain;   /* IMPORTANT */
   border-radius: 50%;    /* optional round */
 }
+
+/* DEFAULT (desktop la jase ahe tasa thev) */
+
+/* MOBILE ONLY */
+@media (max-width: 600px) {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* center align */
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
