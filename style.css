@@ -1359,20 +1359,4 @@ body::after {
     align-items: center !important;
     gap: 6px;
   }
-
-  .logo {
-    width: 32px !important;
-  }
-
-  h2 {
-    font-size: 20px !important;
-    white-space: nowrap; /* text break honar nahi */
-  }
-
-  .btn {
-    padding: 5px 5px !important;
-    font-size: 12px !important;
-  }
-
 }
-
