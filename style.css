@@ -1337,3 +1337,10 @@ body::after {
 .logo-box img {
   width: 45px;
 }
+/* LOGO FIX */
+.logo-box img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;   /* IMPORTANT */
+  border-radius: 50%;    /* optional round */
+}
