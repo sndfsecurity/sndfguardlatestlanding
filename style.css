@@ -1299,3 +1299,41 @@ body::after {
   }
 
 }
+
+/* NAVBAR TITLE FIX */
+.logo-box h2 {
+  font-size: 26px;   /* आधी small होता */
+  font-weight: 700;
+  color: #000;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .logo-box h2 {
+    font-size: 22px;
+  }
+}
+/* ENQUIRY BUTTON FIX */
+.btn {
+  background: linear-gradient(135deg, #ff8c00, #ffb347); /* lighter premium */
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.btn:hover {
+  background: linear-gradient(135deg, #ffa733, #ffc766);
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-box img {
+  width: 45px;
+}
