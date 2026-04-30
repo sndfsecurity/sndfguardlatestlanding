@@ -1240,6 +1240,7 @@ button:hover {
   .btn {
     font-size: 12px;
     padding: 5px 10px;
+    background-color: red;
   }
 
 }
@@ -1310,12 +1311,12 @@ body::after {
 /* MOBILE */
 @media (max-width: 768px) {
   .logo-box h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 /* ENQUIRY BUTTON FIX */
 .btn {
-  background: linear-gradient(135deg, #ff8c00, #ffb347); /* lighter premium */
+  background: linear-gradient(135deg, #8d22d9, #732aa0); /* lighter premium */
   color: #000;
   font-weight: 600;
   border-radius: 8px;
