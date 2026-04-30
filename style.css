@@ -1074,3 +1074,172 @@ button:hover {
     padding: 25px 15px;
   }
 }
+/* ================= MOBILE FULL FIX ================= */
+@media (max-width: 768px) {
+
+  /* GLOBAL RESET */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* BODY */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ================= SECTION SPACING FIX ================= */
+  section,
+  .section {
+    padding: 30px 15px !important;
+  }
+
+  h1, h2 {
+    margin-bottom: 10px !important;
+    line-height: 1.3;
+  }
+
+  p {
+    margin-bottom: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* ================= NAVBAR FIX ================= */
+  .nav {
+    padding: 12px 15px;
+  }
+
+  .logo-box h2 {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  /* ================= HERO FIX ================= */
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  /* ================= CARD / GRID FIX ================= */
+  .card,
+  .exp-card,
+  .testimonial-card {
+    padding: 18px !important;
+  }
+
+  /* ================= CONTACT FORM FIX ================= */
+  .contact-section {
+    padding: 30px 10px !important;
+  }
+
+  .contact-card {
+    padding: 20px 15px !important;
+    border-radius: 15px;
+  }
+
+  .contact-card h2 {
+    font-size: 22px;
+  }
+
+  .contact-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .urgency-banner {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .input-box input,
+  .input-box textarea,
+  select {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .input-box textarea {
+    height: 70px;
+  }
+
+  /* ================= BUTTON FIX ================= */
+  .contact-card button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* ================= FLOATING BUTTON FIX ================= */
+  .whatsapp-float {
+    bottom: 120px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .floating-call {
+    bottom: 50px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  /* ================= TESTIMONIAL FIX ================= */
+  .testimonial-section h2 {
+    margin-bottom: 20px;
+  }
+
+  /* ================= FOOTER FIX ================= */
+  .footer {
+    padding: 30px 15px !important;
+    text-align: center;
+  }
+
+  .footer-info p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .footer-contact span {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+}
+
+/* ================= EXTRA SMALL DEVICES ================= */
+@media (max-width: 480px) {
+
+  .logo-box h2 {
+    font-size: 16px;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .contact-card h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+}
