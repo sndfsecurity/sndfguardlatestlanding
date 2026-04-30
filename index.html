@@ -418,24 +418,8 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
 });
 
 
-const form = document.getElementById("contactForm");
-const successMsg = document.getElementById("successMsg");
 
-form.addEventListener("submit", function(e){
-  e.preventDefault();
 
-  fetch(form.action, {
-    method: "POST",
-    body: new FormData(form),
-  })
-  .then(() => {
-    form.reset();
-    successMsg.style.display = "block";
-  })
-  .catch(() => {
-    alert("Something went wrong!");
-  });
-});
 
 
 </script>
