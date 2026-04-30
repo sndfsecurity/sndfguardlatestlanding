@@ -1346,33 +1346,32 @@ body::after {
   border-radius: 50%;    /* optional round */
 }
 
-/* DEFAULT (desktop la jase ahe tasa thev) */
-
-/* MOBILE ONLY */
 @media (max-width: 600px) {
 
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* center align */
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
   }
 
   .left {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  h2 {
-    font-size: 14px;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px;
   }
 
   .logo {
-    width: 30px;
+    width: 28px !important;
+  }
+
+  h2 {
+    font-size: 13px !important;
+    white-space: nowrap; /* text break honar nahi */
   }
 
   .btn {
-    padding: 6px 12px;
-    font-size: 12px;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
   }
+
 }
