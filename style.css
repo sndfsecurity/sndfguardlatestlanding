@@ -1378,3 +1378,27 @@ body::after {
   }
 
 }
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0; /* 👈 VERY IMPORTANT (overflow fix) */
+}
+
+h2 {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 👈 text cut hoil */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  flex-shrink: 0; /* 👈 button stable rahto */
+}
