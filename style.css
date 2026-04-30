@@ -1367,7 +1367,7 @@ body::after {
   h2 {
     font-size: 18px !important;
     white-space: nowrap; /* text break honar nahi */
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .btn {
