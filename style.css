@@ -1310,7 +1310,7 @@ body::after {
 /* MOBILE */
 @media (max-width: 768px) {
   .logo-box h2 {
-    font-size: 22px;
+    font-size: 30px;
   }
 }
 /* ENQUIRY BUTTON FIX */
