@@ -1244,3 +1244,58 @@ button:hover {
 
 }
 
+
+/* ===== REMOVE ALL EXTRA SPACE BELOW FOOTER ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* LAST SECTION SPACE REMOVE */
+section:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* FOOTER MAIN FIX */
+.footer {
+  padding: 20px 12px !important;
+  margin: 0 !important;
+}
+
+/* REMOVE ALL INNER GAPS */
+.footer * {
+  margin-top: 0 !important;
+  margin-bottom: 6px !important;
+  padding: 0 !important;
+}
+
+/* CONTACT TEXT COMPACT */
+.footer-info p {
+  line-height: 1.4;
+}
+
+/* FOOTER BOTTOM LINE FIX */
+.footer-bottom {
+  margin: 5px 0 0 0 !important;
+}
+
+/* EXTRA SPACE FROM BODY END */
+body::after {
+  content: "";
+  display: block;
+  height: 0;
+}
+
+/* ================= MOBILE EXTRA TIGHT ================= */
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 15px 10px !important;
+  }
+
+  .footer-info p {
+    font-size: 13px;
+  }
+
+}
