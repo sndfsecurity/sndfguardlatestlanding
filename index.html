@@ -53,8 +53,24 @@
   </div>
 
   <div class="hero-right">
-    <img src="image/guard.jpeg">
+
+  <div class="slider">
+
+    <div class="slides fade">
+      <img src="image/guard.jpeg" alt="">
+    </div>
+
+    <div class="slides fade">
+      <img src="image/guard5.webp" alt="">
+    </div>
+
+    <div class="slides fade">
+      <img src="image/guard4.webp" alt="">
+    </div>
+
   </div>
+
+</div>
 
 </section>
 
@@ -417,8 +433,28 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
 });
 
 
+let slideIndex = 0;
 
+function showSlides(){
 
+  let slides = document.querySelectorAll(".slides");
+
+  slides.forEach((slide)=>{
+    slide.style.display = "none";
+  });
+
+  slideIndex++;
+
+  if(slideIndex > slides.length){
+    slideIndex = 1;
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+
+  setTimeout(showSlides,3000);
+}
+
+showSlides();
 
 
 </script>
